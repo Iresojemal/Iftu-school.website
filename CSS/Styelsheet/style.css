@@ -1,0 +1,130 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+  background: #3498db;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+header nav a:hover {
+  color: #ecf0f1;
+}
+
+/* Hero Section */
+.hero {
+  background: url('https://via.placeholder.com/1200x300?text=FTU+IT+Centre') center/cover no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Form Styling */
+form {
+  margin: 20px 0;
+}
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+form button {
+  background: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+form button:hover {
+  background: #2980b9;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  header {
+    padding: 15px;
+  }
+  header nav a {
+    display: block;
+    margin: 10px 0;
+  }
+  .hero {
+    font-size: 1.5em;
+    padding: 40px 20px;
+  }
+}
+/* Dropdown Styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Service Form Styles */
+.service-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Add other form styles from previous answer */
